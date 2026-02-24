@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NextChain Store - 智能商品展示</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .gradient-bg { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <nav class="gradient-bg text-white shadow-lg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16 items-center">
+                <div class="flex items-center">
+                    <h1 class="text-xl font-bold">NextChain Store</h1>
+                </div>
+                <div class="flex space-x-6">
+                    <a href="#" class="hover:text-blue-200">首页</a>
+                    <a href="#products" class="hover:text-blue-200">商品</a>
+                    <a href="#about" class="hover:text-blue-200">关于</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="gradient-bg text-white py-20">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <h2 class="text-4xl font-bold mb-4">智能商品推荐</h2>
+            <p class="text-xl opacity-90">AI 驱动的个性化购物体验</p>
+        </div>
+    </div>
+
+    <div id="products" class="max-w-7xl mx-auto px-4 py-12">
+        <h3 class="text-2xl font-bold text-gray-900 mb-8">热门商品</h3>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6">
+            <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow">
+                <div class="h-48 bg-blue-100 flex items-center justify-center">
+                    <i class="fa fa-fan text-6xl text-blue-500"></i>
+                </div>
+                <div class="p-4">
+                    <div class="text-xs text-blue-600 mb-1">戴森</div>
+                    <h4 class="font-semibold text-gray-900 mb-2">戴森 Dyson HD15 新一代吹风机</h4>
+                    <p class="text-xs text-gray-500 mb-3">智能温控 | 防飞翘风嘴</p>
+                    <div class="flex items-center justify-between">
+                        <span class="text-xl font-bold text-red-600">¥3199</span>
+                        <button class="bg-blue-600 text-white px-3 py-1 rounded text-sm hover:bg-blue-700">查看详情</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow">
+                <div class="h-48 bg-purple-100 flex items-center justify-center">
+                    <i class="fa fa-rocket text-6xl text-purple-500"></i>
+                </div>
+                <div class="p-4">
+                    <div class="text-xs text-blue-600 mb-1">徕芬</div>
+                    <h4 class="font-semibold text-gray-900 mb-2">徕芬 Laifen LF03 高速吹风机</h4>
+                    <p class="text-xs text-gray-500 mb-3">11万转马达 | 2亿负离子</p>
+                    <div class="flex items-center justify-between">
+                        <span class="text-xl font-bold text-red-600">¥599</span>
+                        <button class="bg-blue-600 text-white px-3 py-1 rounded text-sm hover:bg-blue-700">查看详情</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow">
+                <div class="h-48 bg-yellow-100 flex items-center justify-center">
+                    <i class="fa fa-mobile-alt text-6xl text-yellow-500"></i>
+                </div>
+                <div class="p-4">
+                    <div class="text-xs text-blue-600 mb-1">小米</div>
+                    <h4 class="font-semibold text-gray-900 mb-2">小米 米家高速吹风机 H501</h4>
+                    <p class="text-xs text-gray-500 mb-3">62m/s风速 | 温控监测</p>
+                    <div class="flex items-center justify-between">
+                        <span class="text-xl font-bold text-red-600">¥279</span>
+                        <button class="bg-blue-600 text-white px-3 py-1 rounded text-sm hover:bg-blue-700">查看详情</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow">
+                <div class="h-48 bg-green-100 flex items-center justify-center">
+                    <i class="fa fa-cut text-6xl text-green-500"></i>
+                </div>
+                <div class="p-4">
+                    <div class="text-xs text-blue-600 mb-1">飞科</div>
+                    <h4 class="font-semibold text-gray-900 mb-2">飞科 FH6232 大功率电吹风</h4>
+                    <p class="text-xs text-gray-500 mb-3">2000W大功率 | 热量均衡</p>
+                    <div class="flex items-center justify-between">
+                        <span class="text-xl font-bold text-red-600">¥59</span>
+                        <button class="bg-blue-600 text-white px-3 py-1 rounded text-sm hover:bg-blue-700">查看详情</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-gray-900 text-gray-400 py-8 mt-16">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <p>© 2024 NextChain Store. GMC Merchant ID: 5715277387</p>
+        </div>
+    </footer>
+</body>
+</html>
